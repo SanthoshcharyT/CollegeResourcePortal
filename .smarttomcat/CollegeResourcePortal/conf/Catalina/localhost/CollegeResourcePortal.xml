@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:\Users\santh">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/santh/CollageResourcePortal/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/santh/.m2/repository/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-9.1.0.jar"/>
+    <PostResources base="C:/Users/santh/.m2/repository/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-4.26.1.jar"/>
+    <PostResources base="C:/Users/santh/.m2/repository/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jbcrypt-0.4.jar"/>
+    <PostResources base="C:/Users/santh/.m2/repository/com/auth0/java-jwt/4.4.0/java-jwt-4.4.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/java-jwt-4.4.0.jar"/>
+    <PostResources base="C:/Users/santh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jackson-databind-2.14.2.jar"/>
+    <PostResources base="C:/Users/santh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jackson-annotations-2.14.2.jar"/>
+    <PostResources base="C:/Users/santh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jackson-core-2.14.2.jar"/>
+  </Resources>
+</Context>

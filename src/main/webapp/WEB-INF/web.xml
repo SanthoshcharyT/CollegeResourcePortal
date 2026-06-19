@@ -1,0 +1,18 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <display-name>CollegeResourcePortal</display-name>
+
+    <!-- 
+      We are using @WebServlet params in the Java classes, 
+      so we don't strictly need these mappings here unless for overrides.
+      However, to avoid confusion, I will remove the conflicting mapping 
+      or update it to the correct path.
+    -->
+    
+    <!-- Removing manual servlet mapping to let @WebServlet("/api/auth/*") work -->
+
+</web-app>
